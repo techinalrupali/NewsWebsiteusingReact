@@ -1,3 +1,6 @@
+# News Website for the output!!!![Screenshot (2118)](https://github.com/user-attachments/assets/b573b26d-1890-4d27-a14f-390d13566a13)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
