@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c1d6bc !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.newsnav{
+
+  background-color: #4B5945;
+ 
+}
+.searchBar{
+  display: flex !important;
+  align-items: center !important;
+  gap: 11px !important;
+}
+.searchBar{
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.searbutton{
+  width: 70px;
+  height: 38px;
+  background-color: #91AC8F;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  gap: 41px;
+  flex-wrap: wrap;
+}
+
+
+.head{
+  font-weight: bold;
+  margin-top: 5px;
+ 
+}
+
+.catebtn{
+
+background-color: #66785F !important ;
+border: none !important;
+cursor: pointer;
+border-radius: 16px !important;
+font-size: 18px !important;
+width: 130px !important;
+height: 33px !important;
+padding: 2px !important;
+color: white !important;
+}
+.card{
+  width: 320px;
+  box-shadow: 0px 4px 4px 4px  #4B5945 ;
+  background-color: white;
+  border-radius: 3px;
+  margin-top: 21px;
+  border: 2px solid  #272e24;
+}
+.card img{
+  width: 100%;
+  height:180px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}    
+.card .title{
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: -7px;
+  color: black;
+  outline: none;
+}
+
+.card .title:hover{
+  /* border-bottom: 1px solid black; */
+  cursor: pointer;
+}
+.card .content{
+  padding: 9px;
+}
+.card button{
+  background-color: #66785F ;
+  border:none;
+  cursor: pointer;
+  width: 85px;
+  height: 38px;
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+}
